@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sports & House System | St. Anthony's RCBC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .house-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+        .house-card { padding: 25px; border-radius: 12px; text-align: center; color: white; transition: 0.3s; border-bottom: 5px solid rgba(0,0,0,0.2); }
+        .house-card:hover { transform: translateY(-10px); }
+        
+        /* House Colors */
+        .house-red { background: #b91c1c; }
+        .house-green { background: #15803d; }
+        .house-blue { background: #1d4ed8; }
+        .house-yellow { background: #eab308; color: #1a1a1a; }
+
+        .achievement-section { background: white; padding: 30px; border-radius: 10px; margin: 40px 0; border-left: 6px solid var(--royal-gold); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .stat-box { display: flex; justify-content: space-around; background: var(--primary-green); color: white; padding: 20px; border-radius: 8px; margin-top: 20px; }
+        .house-details { text-align: left; margin-top: 15px; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <h1>St. Anthony's RCBC Sports</h1>
+    <p>Honoring our Achievements & House Traditions</p>
+</div>
+
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="news.html">General News</a>
+    <a href="sports.html" class="active">Sports & Houses</a>
+</nav>
+
+<main class="main-content">
+    
+    <div class="section-title">
+        <h2>The House System</h2>
+        <p>Four Houses, One Brotherhood</p>
+        <div class="underline"></div>
+    </div>
+
+    <div class="house-container">
+        <div class="house-card house-red">
+            <i class="fas fa-shield-alt fa-3x"></i>
+            <h3>RED HOUSE</h3>
+            <div class="house-details">
+                <p><strong>House Master:</strong> ________________</p>
+                <p><strong>Captain:</strong> ________________</p>
+                <p><strong>Motto:</strong> ________________</p>
+                <p><strong>History:</strong> ________________________________</p>
+            </div>
+        </div>
+
+        <div class="house-card house-green">
+            <i class="fas fa-leaf fa-3x"></i>
+            <h3>GREEN HOUSE</h3>
+            <div class="house-details">
+                <p><strong>House Master:</strong> ________________</p>
+                <p><strong>Captain:</strong> ________________</p>
+                <p><strong>Motto:</strong> ________________</p>
+                <p><strong>History:</strong> ________________________________</p>
+            </div>
+        </div>
+
+        <div class="house-card house-blue">
+            <i class="fas fa-water fa-3x"></i>
+            <h3>BLUE HOUSE</h3>
+            <div class="house-details">
+                <p><strong>House Master:</strong> ________________</p>
+                <p><strong>Captain:</strong> ________________</p>
+                <p><strong>Motto:</strong> ________________</p>
+                <p><strong>History:</strong> ________________________________</p>
+            </div>
+        </div>
+
+        <div class="house-card house-yellow">
+            <i class="fas fa-sun fa-3x"></i>
+            <h3>YELLOW HOUSE</h3>
+            <div class="house-details">
+                <p><strong>House Master:</strong> ________________</p>
+                <p><strong>Captain:</strong> ________________</p>
+                <p><strong>Motto:</strong> ________________</p>
+                <p><strong>History:</strong> ________________________________</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="achievement-section">
+        <div class="section-title" style="text-align: left;">
+            <h2>College Sports Achievements</h2>
+            <div class="underline" style="margin-left: 0;"></div>
+        </div>
+        
+        <p>St. Anthony's RCBC has a long-standing tradition of producing elite athletes. Below are our major milestones for the current season:</p>
+
+        <div class="news-grid" style="margin-top: 20px;">
+            <article class="news-item">
+                <div class="news-content">
+                    <span class="win-tag" style="background: #facc15; padding: 5px; border-radius: 4px; font-weight: bold;">Major Win</span>
+                    <h3>Inter-School Cricket Championship</h3>
+                    <p>Details about the match, opponent, and key performers go here.</p>
+                </div>
+            </article>
+
+            <article class="news-item">
+                <div class="news-content">
+                    <span class="win-tag" style="background: #facc15; padding: 5px; border-radius: 4px; font-weight: bold;">Regional Record</span>
+                    <h3>Athletics Meet - Under 17</h3>
+                    <p>Details about the track and field records broken by our students.</p>
+                </div>
+            </article>
+        </div>
+
+        <div class="stat-box">
+            <div style="text-align: center;">
+                <h4>Total Trophies</h4>
+                <p style="font-size: 1.5rem; font-weight: bold;">___</p>
+            </div>
+            <div style="text-align: center;">
+                <h4>Current House Leader</h4>
+                <p style="font-size: 1.5rem; font-weight: bold;">_________</p>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer" style="text-align: center; padding: 20px; background: var(--primary-green); color: white; margin-top: 40px;">
+    <p>© 2026 St. Anthony's RCBC | Sports Department</p>
+</footer>
+
+</body>
+</html>
